@@ -18,3 +18,6 @@ echo "Downloading Configuration files..."
 echo "Enabling Services..."
 
 ln -sf "/usr/lib/systemd/system/lighttpd.service" "/etc/systemd/system/multi-user.target.wants/lighttpd.service"
+
+
+#https://github.com/mafia-007
